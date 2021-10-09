@@ -1,0 +1,1478 @@
+{
+	"pages": [
+    {
+			"path": "pages/find/index",
+			"style": {
+				"navigationBarTitleText": "发 现",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark"
+			}
+		},
+    {
+    	"path": "pages/spread/main",
+    	"style": {
+    		"navigationBarTitleText": "传 播",
+    		"enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#00D7D0",
+        "navigationBarTextStyle": "white"
+    	}
+    },
+		{
+			"path": "pages/H5/main",
+			"style": {
+				"navigationBarTitleText": "H5",
+				"navigationStyle": "custom"
+			},
+      "usingComponents": {
+          "ec-canvas": "./ec-canvas/ec-canvas"
+        }
+		},
+		{
+			"path": "pages/H5/webView",
+			"style": {
+				"navigationBarTitleText": "H5",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/main",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false,
+				"disableScroll": true
+			}
+		},
+
+		{
+			"path": "pages/IM/main"
+		},
+		{
+			"path": "pages/companyIntro/main"
+		},
+		{
+			"path": "pages/tabsEdit/main"
+		},
+		{
+			"path": "pages/wxLogin/main",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/uploadpictures/uploadpictures",
+			"style": {
+				"navigationBarTitleText": "上传图片",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#1ad0c3"
+			}
+		},
+		{
+			"path": "pages/mine/main",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+
+		{
+			"path": "pages/msg/main",
+			"style": {
+				"navigationBarTitleText": "消 息",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		{
+			"path": "pages/shareCard/main"
+		}
+
+    ],
+	"subPackages": [{
+			"root": "pages/companyPack/",
+			"pages": [{
+					"path": "find/dynamicDetail/main",
+					"style": {
+						"navigationBarTitleText": "文章详情",
+						"enablePullDownRefresh": true,
+						"backgroundTextStyle": "dark"
+					}
+				},
+        {
+        	"path": "mailAdd/main",
+        	"style": {
+        		"navigationBarTitleText": "添加通讯录",
+        		"backgroundTextStyle": "dark"
+        	}
+        },
+				{
+					"path": "productIntro/main",
+					"style": {
+						"navigationBarTitleText": "产品介绍",
+						"enablePullDownRefresh": true,
+						"backgroundTextStyle": "dark"
+					}
+				},
+				{
+					"path": "find/main",
+					"style": {
+						"navigationBarTitleText": "推荐",
+						"enablePullDownRefresh": true,
+						"backgroundTextStyle": "dark"
+					}
+				},
+				{
+					"path": "editorialzation/editorialzation",
+					"style": {
+						"navigationBarTitleText": "编辑机构介绍",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "postergallery/postergallery",
+					"style": {
+						"navigationBarTitleText": "海报图库",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "copylibrary/copylibrary",
+					"style": {
+						"navigationBarTitleText": "文案库",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "find/poster/articleList",
+					"style": {
+						"navigationBarTitleText": "文章列表",
+						"enablePullDownRefresh": true,
+						"backgroundTextStyle": "dark"
+					}
+				},
+				{
+					"path": "find/poster/viedoList",
+					"style": {
+						"navigationBarTitleText": "视频列表",
+						"enablePullDownRefresh": true,
+						"backgroundTextStyle": "dark"
+					}
+				},
+				{
+					"path": "organization/organization",
+					"style": {
+						"navigationBarTitleText": "组织架构",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "mentauthority/mentauthority",
+					"style": {
+						"navigationBarTitleText": "设置部门权限",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "addmembers/addmembers",
+					"style": {
+						"navigationBarTitleText": "添加成员",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "videodetails/videodetails",
+					"style": {
+						"navigationBarTitleText": "视频详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "imagedisplay/imagedisplay",
+					"style": {
+						"navigationBarTitleText": "形象展示",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "displayeditors/displayeditors",
+					"style": {
+						"navigationBarTitleText": "编辑形象展示",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "cashoutOrder/cashoutOrder",
+					"style": {
+						"navigationBarTitleText": "提现记录",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "institutional/main",
+					"style": {
+						"navigationBarTitleText": "产品",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#F8F8F8"
+					}
+				},
+				{
+					"path": "tendencies/main",
+					"style": {
+						"navigationBarTitleText": "发动态",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#F8F8F8"
+					}
+				},
+				{
+					"path": "showBill/main"
+				},
+				{
+					"path": "companyAddr/main"
+				},
+				{
+					"path": "companyVideos/main",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "searchChooseItem/main"
+				},
+				{
+					"path": "find/release/main",
+					"style": {
+						"navigationBarTitleText": "发布需求"
+					}
+				},
+				{
+					"path": "find/detall/main",
+					"style": {
+						"navigationBarTitleText": "供求信息"
+					}
+				},
+				{
+					"path": "find/screen/screen",
+					"style": {
+						"navigationBarTitleText": "筛选"
+					}
+				},
+				{
+					"path": "find/poster/poster",
+					"style": {
+						"navigationBarTitleText": "营销合规"
+					}
+				},
+				{
+					"path": "find/businessCardinfo/main",
+					"style": {
+						"navigationBarTitleText": "名片详情"
+					}
+				},
+				{
+					"path": "chooseProfession/main",
+					"style": {
+						"navigationBarTitleText": "所属行业"
+					}
+				},
+				{
+					"path": "commonWords/main",
+					"style": {
+						"navigationBarTitleText": "IM话术库",
+						"navigationBarTextStyle": "white",
+						"navigationBarBackgroundColor": "#1AD0C3",
+						"enablePullDownRefresh": true
+					}
+				}, {
+					"path": "clientAdd/main"
+				}, {
+					"path": "salesRanking/main",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "commentDetail/main",
+					"style": {
+						"navigationBarTitleText": "动态详情"
+					}
+				}, {
+					"path": "editCard/main",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "editCard/screen",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "reward/main",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "settingReward/main",
+					"style": {
+						"navigationBarTitleText": "设置奖励"
+					}
+				}, {
+					"path": "mycard/main",
+					"style": {
+						"navigationBarTitleText": "我的名片",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "library/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "机构文库",
+						"navigationBarTextStyle": "white",
+						"navigationBarBackgroundColor": "#1ad0c3"
+					}
+				},
+				{
+					"path": "library/examine",
+					"style": {
+						"navigationBarTitleText": "审核详情",
+						"navigationBarBackgroundColor": "#1AD0C3",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "library/details",
+					"style": {
+						"navigationBarTitleText": "机构文库",
+						"navigationBarBackgroundColor": "#1ad0c3",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "shareRecord/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "获客记录"
+					}
+				}, {
+					"path": "maillist/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "名片夹"
+					}
+				}, {
+					"path": "collect/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "我的收藏"
+					}
+				}, {
+					"path": "articleupload/articleupload",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "文件上传"
+					}
+				},
+				{
+					"path": "principles/main",
+					"style": {
+						"navigationBarTitleText": "内容管理",
+						"navigationBarTextStyle": "white",
+						"navigationBarBackgroundColor": "#1AD0C3",
+						"enablePullDownRefresh": true
+					}
+
+				},
+				{
+					"path": "contentspread/contentspread",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "内容传播"
+					}
+				},
+				{
+					"path": "burse/burse"
+				},
+				{
+					"path": "burse/burse1"
+				},
+				{
+					"path": "staffshare/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "员工分享"
+					}
+				},
+				{
+					"path": "editEnterprise/main"
+				},
+				{
+					"path": "dataKanBan/main",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "articleAward/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "文章明细"
+					}
+				},
+				{
+					"path": "balanceOrder/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "充值订单"
+					}
+				},
+				{
+					"path": "essayType/main",
+					"style": {
+						"navigationBarTitleText": "选择分类"
+					}
+				},
+				{
+					"path": "essayTypeControl/main",
+					"style": {
+						"navigationBarTitleText": "分类管理"
+					}
+				},
+				{
+					"path": "chooseCompanyItem/main",
+					"style": {
+						"navigationBarTitleText": "输入机构"
+					}
+				},
+				{
+					"path": "shareRecordDetails/main",
+					"style": {
+						"disableScroll": true,
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "获客详情"
+					}
+				},
+				{
+					"path": "dyamicManage/main",
+					"style": {
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "动态管理"
+					}
+				},
+				{
+					"path": "dyamicManage/institutions",
+					"style": {
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "外部投稿"
+					}
+				},
+				{
+					"path": "shareNow/main",
+					"style": {
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "文章分享"
+					}
+				},
+				// zlz
+				{
+					"path": "choosefriends/main",
+					"style": {
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "选择好友"
+					}
+				},
+				{
+					"path": "selectArticle/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "相关资料"
+					}
+				},
+				{
+					"path": "selectCommidit/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "选择商品"
+					}
+				},
+
+				{
+					"path": "selectpeople/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "选择拜访人",
+						"onReachBottomDistance": 50
+					}
+				},
+				{
+					"path": "selectTemplete/main",
+					"style": {
+						"navigationBarTitleText": "选择拜访模板"
+					}
+				},
+				{
+					"path": "editTemplete/main",
+					"style": {
+						"navigationBarTitleText": "编辑拜访模板"
+					}
+				},
+				{
+					"path": "selectstaff/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "选择接收人",
+						"onReachBottomDistance": 50
+					}
+				},
+				{
+					"path": "productControl/main"
+				},
+				{
+					"path": "classifyControl/main"
+				},
+				{
+					"path": "prodDetail/main"
+				},
+				{
+					"path": "prodDetail/index"
+				},
+				{
+					"path": "dynamicControl/main"
+				},
+				{
+					"path": "dynamicIssue/main"
+				},
+				{
+					"path": "myPrecise/main",
+					"style": {
+						"navigationBarTitleText": "精准转发",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "award/main",
+					"style": {
+						"navigationBarTitleText": "账户明细",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "mypusheffect/main",
+					"style": {
+						"navigationBarTitleText": "推效记录",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "visitlist2/main",
+					"style": {
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "visitlist/main",
+					"style": {
+						"navigationBarTitleText": "拜访客户",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "visitdetail/main",
+					"style": {
+						"navigationBarTitleText": "拜访内容",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "addVisit/main",
+					"style": {
+						"navigationBarTitleText": "新增拜访"
+					}
+				},
+				{
+					"path": "visitrecord/main",
+					"style": {
+						"navigationBarTitleText": "拜访记录"
+					}
+				},
+				{
+					"path": "accurateShare/main",
+					"style": {
+						"navigationBarTitleText": "精准转发"
+					}
+				},
+				{
+					"path": "myshare/main",
+					"style": {
+						"navigationBarTitleText": "分享记录",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "dynamicDetail/main"
+				},
+				{
+					"path": "member/main"
+				},
+				{
+					"path": "memberAnalyze/main"
+				},
+				{
+					"path": "financialStatistics/main"
+				},
+				{
+					"path": "financialStatistics/financialDetail",
+					"style": {
+						"navigationBarTitleText": "详情"
+					}
+				},
+				{
+					"path": "joinUs/main"
+				},
+				{
+					"path": "inviteEdit/main"
+				},
+				{
+					"path": "inviteDetail/main"
+				},
+				{
+					"path": "appointmentManage/main"
+				},
+				{
+					"path": "appointmentList/main"
+				},
+				{
+					"path": "appointmentProdControl/main"
+				},
+				{
+					"path": "appointmentClassifyControl/main"
+				},
+				{
+					"path": "appointmentProdDetail/main"
+				},
+				{
+					"path": "chooseAddr/main"
+				}, {
+					"path": "enterprisedata/enterprisedata",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "archicve/archicve",
+					"style": {
+						"navigationBarTitleText": "新建文件",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "draft/draft",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true
+					}
+				}, {
+					"path": "market/market",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "editorialmembers/editorialmembers",
+					"style": {
+						"navigationBarTitleText": "编辑成员",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "setdepartment/setdepartment",
+					"style": {
+						"navigationBarTitleText": "选择部门",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "batchmove/batchmove",
+					"style": {
+						"navigationBarTitleText": "批量移动成员",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "business/business",
+					"style": {
+						"navigationBarTitleText": "名片夹邀请",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "consulting/consulting",
+					"style": {
+						"navigationBarTitleText": "资讯",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "recruit/recruit",
+					"style": {
+						"navigationBarTitleText": "企业招聘",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "enterprise/enterprise",
+					"style": {
+						"navigationBarTitleText": "企业",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "ferret/ferret",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "appoint/appoint",
+					"style": {
+						"navigationBarTitleText": "指定搜索",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "directsearch/directsearch",
+					"style": {
+						"navigationBarTitleText": "搜索结果",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "connection/connection",
+					"style": {
+						"navigationBarTitleText": "选择成员客户",
+						"enablePullDownRefresh": true
+					}
+
+				}
+			]
+		},
+		{
+			"root": "pages/article/",
+			"pages": [{
+					"path": "editArticle/main",
+					"style": {
+						"disableScroll": true,
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "写文章"
+					}
+				},
+				{
+					"path": "dynamicDetail/main",
+					"style": {
+						"navigationBarTitleText": "文章详情"
+					}
+				},
+				{
+					"path": "editArticle/publicArticle",
+					"style": {
+						"disableScroll": true,
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "转发公众号文章"
+					}
+				},
+				{
+					"path": "editArticle/articleImg",
+					"style": {
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "写文章"
+					}
+				},
+				{
+					"path": "articleDetail/index",
+					"style": {
+						"disableScroll": true,
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "文章详情"
+					}
+				},
+				{
+					"path": "articleDetail/webView"
+				},
+				{
+					"path": "articleDetail/main"
+				}
+			]
+		},
+		{
+			"root": "pages/my/",
+			"pages": [{
+					"path": "cardCode/main"
+				},
+
+				{
+					"path": "cardCode2/main",
+					"style": {}
+				},
+				{
+					"path": "orderLists/main",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "orderDetail/main"
+				}
+			]
+		},
+		{
+			"root": "pages/marketing/",
+			"pages": [{
+					"path": "marketingList/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "任务管理"
+					}
+				},
+				{
+					"path": "progress/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "任务进度"
+					}
+				},
+				{
+					"path": "taskDetails/main",
+					"style": {
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "tasksReceived/main",
+					"style": {
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/clientList/",
+			"pages": [{
+					"path": "clientDetail/main",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "customerStatistics/main",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "customerAnalysis/main",
+					"style": {
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false,
+						"navigationBarTextStyle": "#ffffff",
+						"disableScroll": true
+					}
+				},
+				{
+					"path": "editLog/main"
+				},
+				{
+					"path": "inputMoney/main"
+				}
+			]
+		},
+		{
+			"root": "pages/frequentPack/",
+			"pages": [{
+					"path": "frequent/main"
+				},
+				{
+					"path": "statements/main"
+				},
+				{
+					"path": "commonPhrases/main"
+				},
+				{
+					"path": "messageSetting/main"
+				},
+				{
+					"path": "defaultCardSetting/main"
+				},
+				{
+					"path": "loginStatements/main"
+				},
+				{
+					"path": "contacts/main",
+					"style": {
+						"navigationBarTitleText": "行业分类"
+					}
+				},
+				{
+					"path": "marketSettinga/main",
+					"style": {
+						"navigationBarTitleText": "人脉集市设置"
+					}
+				},
+				{
+					"path": "vrSetting/main",
+					"style": {
+						"navigationBarTitleText": "VR资料上传"
+					}
+				},
+				{
+					"path": "addPhrases/main",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "setBanner/main",
+					"style": {
+						"navigationBarTitleText": "广告模块"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/enterpriSeservices/",
+			"pages": [{
+					"path": "seservices/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "机构服务"
+					}
+				},
+				{
+					"path": "chooseCompany/main"
+				},
+				{
+					"path": "chooseIdentity/main"
+				},
+				{
+					"path": "followLog/main"
+				},
+				{
+					"path": "companyInvite/main"
+				},
+				{
+					"path": "editCompanyVideo/main",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "setMeal/main"
+				},
+				{
+					"path": "articlesList/main",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "转发文章数量"
+					}
+				},
+				{
+					"path": "activityDetall/main",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/buyVideo/",
+			"pages": [{
+					"path": "index/main",
+					"style": {
+						"navigationBarTitleText": "发布视频",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#F8F8F8"
+					}
+				},
+				{
+					"path": "videoExhibition/main",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "editVideoExhibition/main",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "editVideo/main",
+					"style": {
+						"navigationBarTitleText": "编辑短视频"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/webSiteControl",
+			"pages": [{
+					"path": "index/main"
+				},
+				{
+					"path": "questionnaire/main",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "userList/main",
+					"style": {
+						"navigationBarTitleText": "反馈用户列表"
+					}
+				}, {
+					"path": "sgare/sgare",
+					"style": {
+						"navigationBarTitleText": "精品文章"
+					}
+				}
+			]
+		},
+    // {
+    //   "root": "pages/mission",
+    //   "pages":[
+        
+    //         ]
+    // },
+		{
+			"root": "pages/demand",
+			"pages": [
+        {
+          "path" : "newmission/mission",
+          "style":  {
+                "navigationBarTitleText": "发布任务",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+          "path" : "appointMission/appointMission",
+          "style" :  {
+                "navigationBarTitleText": "机构任务",
+                "enablePullDownRefresh": true
+                  }
+        
+        },
+        {
+          "path" : "openMission/openMission",
+          "style" : {
+                "navigationBarTitleText": "我的任务",
+                "enablePullDownRefresh": true
+                  }
+        
+        },
+        {
+          "path" : "platformMission/platformMission",
+          "style" :  {
+                "navigationBarTitleText": "平台任务",
+                "enablePullDownRefresh": true
+                  }
+        
+        },
+        {
+          "path" : "newsMission/newsMission",
+          "style" :  {
+                "navigationBarTitleText": "任务通知",
+                "enablePullDownRefresh": true
+                  }
+        
+        },
+        {
+          "path" : "newsMission/newsDetail/newsDetail",
+          "style" : {
+                "navigationBarTitleText": "任务通知",
+                "enablePullDownRefresh": false
+                    }
+        
+        },
+        {
+          "path" : "contractAdmin/contractAdmin",
+          "style" :  {
+                "navigationBarTitleText": "合同管理",
+                "enablePullDownRefresh": true
+                  }
+        
+        },
+        {
+          "path" : "contractAdmin/selectContract/selectContract",
+          "style" :  {
+              "navigationBarTitleText": "选择合同",
+              "enablePullDownRefresh": true
+                  }
+        
+        },
+        {
+          "path" : "missionHall/missionHall",
+          "style" :  {
+              "navigationBarTitleText": "任务大厅",
+              "enablePullDownRefresh": true
+                  }
+                  
+        },
+        {
+          "path" : "missionDetail/missionDetail",
+          "style" :  {
+              "navigationBarTitleText": "任务详情",
+              "enablePullDownRefresh": false
+                  }
+                  
+        },
+        {
+          "path" : "missionDetailAappoint/missionDetailAappoint",
+          "style" : {
+              "navigationBarTitleText": "任务详情",
+              "enablePullDownRefresh": false
+                  }
+                  
+        },
+        {
+          "path" : "missionDetailMeet/missionDetailMeet",
+          "style" :  {
+              "navigationBarTitleText": "任务详情",
+              "enablePullDownRefresh": false
+                  }
+                  
+        },
+        {
+          "path" : "missionDetailPlatform/missionDetailPlatform",
+          "style" :   {
+              "navigationBarTitleText": "任务详情",
+              "enablePullDownRefresh": false
+                  }
+                  
+        },
+        {
+          "path" : "missionDetailMe/missionDetailMe",
+          "style" :   {
+              "navigationBarTitleText": "任务详情",
+              "enablePullDownRefresh": false
+                  }
+                  
+        },
+        {
+          "path" : "missionDetailInside/missionDetailInside",
+          "style" :  {
+              "navigationBarTitleText": "任务详情",
+              "enablePullDownRefresh": false
+                  }
+                  
+        },
+        {
+          "path" : "progressDetail/progressDetail",
+          "style" :   {
+              "navigationBarTitleText": "进度详情",
+              "enablePullDownRefresh": true
+                  }
+                  
+        },
+        {
+          "path" : "newChildMission/newChildMission",
+          "style" :   {
+              "navigationBarTitleText": "创建子任务",
+              "enablePullDownRefresh": false
+                  }
+                  
+        },
+        {
+          "path" : "missionEvidence/missionEvidence",
+          "style" :   {
+              "navigationBarTitleText": "查看证据",
+              "enablePullDownRefresh": true
+                  }
+                  
+        },
+        {
+          "path" : "upLoadImg/upLoadImg",
+          "style" :   {
+              "navigationBarTitleText": "上传凭证",
+              "enablePullDownRefresh": false
+                  }
+                  
+        },
+        {
+          "path" : "uploadInfo/uploadInfo",
+          "style" :   {
+              "navigationBarTitleText": "上传任务进度",
+              "enablePullDownRefresh": false
+                  }
+                  
+        },
+        {
+					"path": "writedemand/writedemand",
+					"style": {
+						"navigationBarTitleText": "发布供求信息",
+						"navigationBarTextStyle": "white",
+						"navigationBarBackgroundColor": "#1ad0c3",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "adminDemand/adminDemand",
+					"style": {
+						"navigationBarTitleText": "供求管理",
+						"navigationBarTextStyle": "white",
+						"navigationBarBackgroundColor": "#1ad0c3",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "deman/demand",
+					"style": {
+						"navigationBarTitleText": "发布供求信息",
+						"navigationBarBackgroundColor": "#1ad0c3",
+						"navigationBarTextStyle": "white",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "share/share",
+					"style": {
+						"navigationBarTitleText": "普通转发",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "businessCard/businessCard",
+					"style": {
+						"navigationBarTitleText": "名片夹",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "teamInt/teamInt",
+					"style": {
+						"navigationBarTitleText": "团队介绍",
+						"enablePullDownRefresh": true
+					}
+
+				},
+				{
+					"path": "honor/honor",
+					"style": {
+						"navigationBarTitleText": "荣誉资质",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "honor/edithonor",
+					"style": {
+						"navigationBarTitleText": "编辑荣誉资质",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "editTeam/editTeam",
+					"style": {
+						"navigationBarTitleText": "编辑团队介绍",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "contactMe/contactMe",
+					"style": {
+						"navigationBarTitleText": "联系我们",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "editContactMe/editContactMe",
+					"style": {
+						"navigationBarTitleText": "编辑联系我们",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "forAccurate/forAccurate",
+					"style": {
+						"navigationBarTitleText": "精准转发",
+						"enablePullDownRefresh": true
+					}
+
+				},
+				{
+					"path": "forPromote/forPromote",
+					"style": {
+						"navigationBarTitleText": "推效转发",
+						"enablePullDownRefresh": true
+					}
+
+				},
+				{
+					"path": "forShare/forShare",
+					"style": {
+						"navigationBarTitleText": "分享奖励",
+						"enablePullDownRefresh": true
+					}
+
+				},
+				{
+					"path": "forRead/forRead",
+					"style": {
+						"navigationBarTitleText": "阅读奖励",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "recruitment/main",
+					"style": {
+						"navigationBarTitleText": "招商招聘",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "merchant/main",
+					"style": {
+						"navigationBarTitleText": "管理招商信息",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "tidings/tidings",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationStyle": "custom"
+					}
+
+				},
+				
+				
+				{
+					"path": "notice/notice",
+					"style": {
+						"navigationBarTitleText": "通知",
+						"enablePullDownRefresh": true
+					}
+
+				},
+			
+				{
+					"path": "signStatus/signStatus",
+					"style": {
+						"navigationBarTitleText": "签署状态",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "Group_chat/Group_chat",
+					"style": {
+						"navigationBarTitleText": "群聊列表",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "Group_chat/establish",
+
+					"style": {
+						"navigationBarTitleText": "创建群聊",
+						"enablePullDownRefresh": true
+					}
+				}, {
+					"path": "Group_chat/main"
+				},
+				{
+					"path": "Group_chat/update",
+					"navigationBarTitleText":"添加成员"
+				},
+        {
+					"path": "Group_chat/EditGroup",
+					"navigationBarTitleText": "编辑群"
+				},
+        {
+          "path" : "uploadFile/uploadFile",
+          "style" : {
+            "navigationBarTitleText": "上传文件",
+            "enablePullDownRefresh": false
+            }
+
+        },
+        {
+          "path" : "contentData/contentData",
+          "style" : {
+            "navigationBarTitleText": "内容数据",
+            "enablePullDownRefresh": false
+             }
+
+        },
+        {
+          "path" : "selfAuth/selfAuth",
+          "style" :  {
+            "navigationBarTitleText": "实名认证",
+            "enablePullDownRefresh": false
+                }
+                
+        }
+        
+            ]
+		}
+	],
+	"globalStyle": {
+		"enablePullDownRefresh": true,
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "采推CRM",
+		"navigationBarTextStyle": "black",
+		"backgroundColor": "#ffffff"
+	},
+	// "tabBar": {
+	// 	"color": "#A8A8A8",
+	// 	"backgroundColor": "#ffffff",
+	// 	"selectedColor": "#51CDCB",
+	// 	"borderStyle": "white",
+	// 	"list": [{
+	// 			"text": "发现",
+	// 			"pagePath": "pages/find/index",
+	// 			"iconPath": "./static/tabs/find.png",
+	// 			"selectedIconPath": "./static/tabs/find-active.png"
+	// 		},
+	// 		{
+	// 			"text": "传播",
+	// 			"pagePath": "pages/spread/main",
+	// 			"iconPath": "./static/tabs/spread.png",
+	// 			"selectedIconPath": "./static/tabs/spread-active.png"
+	// 		},
+	// 		{
+	// 			"text": "跟进",
+	// 			"pagePath": "pages/index/main",
+	// 			"iconPath": "./static/tabs/follow.png",
+	// 			"selectedIconPath": "./static/tabs/follow-active.png"
+	// 		},
+	// 		{
+	// 			"text": "消息",
+	// 			"pagePath": "pages/msg/main",
+	// 			"iconPath": "./static/tabs/msg.png",
+	// 			"selectedIconPath": "./static/tabs/msg-active.png"
+	// 		},
+	// 		{
+	// 			"text": "个人中心",
+	// 			"pagePath": "pages/mine/main",
+	// 			"iconPath": "./static/tabs/user.png",
+	// 			"selectedIconPath": "./static/tabs/user-active.png"
+	// 		}
+	// 	],
+	// 	"position": "bottom"
+	// },
+	"navigateToMiniProgramAppIdList": ["wxb1c8708b772c3eef", "wx93f2c168a919931d"],
+	"window": {
+		"onReachBottomDistance": 50
+	},
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
